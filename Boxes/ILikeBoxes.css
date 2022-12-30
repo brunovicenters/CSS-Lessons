@@ -33,3 +33,12 @@ li:hover {
     border-bottom-right-radius: 10px;
     padding: 10px 0px;
 }
+.hakuna {
+    text-align: center;
+    border: 10px double green;
+    box-sizing: border-box;
+    border-left-style: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0px;
+}
