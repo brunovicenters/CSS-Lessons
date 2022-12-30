@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.bola {
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    transition: border-radius 0.5s, background-color 2s;
+}
+
+.bola:hover {
+    border-radius: 50%;
+    background-color: gold;
+}
+
+section div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+    transition: margin-left 2s;
+}
+
+/*transition-timing : tem muitos jeitos, mas basicamente, regula como as transições vão ser - lentas, rápidas, acelera com o tempo*/
+/*Na Transition você pode especificar quatro coisas: O que vai ser transicionado; A duração da transição; Timing-function; E o delay*/
+section:hover div {
+    margin-left: 300px;
+}
+
+div:nth-last-of-type(3) {
+    transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+div:nth-last-of-type(2) {
+    transition-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+div:nth-last-of-type(1) {
+    transition-timing-function: cubic-bezier(0.36, 0, 0.66, -0.56);
+}

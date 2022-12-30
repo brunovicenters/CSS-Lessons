@@ -1,0 +1,99 @@
+#opa {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(105, 35, 000, 0.5);
+}
+
+#oka {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.3;
+}
+
+.div {
+    width: 50%;
+    float: left;
+    background-color: brown;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+#po {
+    padding-bottom: 100px;
+}
+
+#poste {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+#Static {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    display: inline-block;
+    border: 5px solid black;
+    position: static;
+}
+
+#Relative {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 234);
+    display: inline-block;
+    border: 5px solid black;
+    position: relative;
+    top: 95px;
+    left: 62px;
+}
+
+.h2Abso {
+    position: relative;
+
+}
+
+#Absolute {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 81, 0);
+    display: inline-block;
+    border: 5px solid black;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    /* É posicionado a partir do seu parente mais próximo, o "body", ou uma "div", caso você dê uma "position: relative;" para ela*/
+}
+
+#Fixed {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 0, 255);
+    display: inline-block;
+    border: 5px solid black;
+    position: fixed;
+    top: 80px;
+    left: 1150px;
+    /*Ele é posicionado a partir do topo da página e, mesmo q você "scrolle" a tela, ela estará lá, fixado*/
+}
+
+#Sticky {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    border: 5px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -11px;
+    /*consegui fazer não, mas começa a seguir o topo da página, depois que você passa por ele*/
+}

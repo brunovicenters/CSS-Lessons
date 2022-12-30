@@ -1,0 +1,38 @@
+#head {
+    background-color: lightseagreen;
+}
+body {
+    background-color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+    color: darkred;
+}
+td {
+    text-align: center;
+    border: solid;
+    border-color: crimson;
+    padding: 12px;
+}
+hr {
+        height: 2px;
+        background: black;
+        border: solid;
+}
+table {
+    border-collapse: collapse;
+}
+.BeP {
+    width: 50%;
+    float: left;
+    padding-bottom: 10px;
+}
+.Subj {
+    color: darkblue;
+}
+.Tobe {
+    color: chocolate;
+}
+.Comp {
+    color: darkgreen;
+}
